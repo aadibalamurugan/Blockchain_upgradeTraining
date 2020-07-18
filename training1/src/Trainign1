@@ -1,0 +1,40 @@
+1. What is your understanding of Blockchain?
+
+Blockchain is a technology which is not a language.
+Blockchain can write in either jscript or python language.
+Blockchain is not a bitcoin.
+Blockchain are distubuted ledger + decentraized + cryptography  + immutable
+Blockchain is " connecting of multiple nodes each other through the network (P2P),same time 
+each node will have multiple blocks."
+eachBlocks have some set of transaction which are managed by cryptography sha256.
+Blockchain have 3 major area: public ,private ,consersium 
+
+
+2. What is the core problem blockchain trying to solve?
+
+Third party - we can avoid third party like banks.
+centraized - We can void centraized database.
+security  - while doing transaction a to b, some one can hack the transaction.
+Authentication - Valid the transaction.
+
+
+3. What are the features that the blockchain will give you?
+Immutable
+Verifiable
+Unchangeable transaction
+Tamper Proof
+Decentralized.
+
+
+4. What are all the things the block contains?
+2 PART : Header + Transaction
+header : 4 area : 1. timestamp 2. nonce 3. prevous block hashcode 4.blocknumber
+transaction : it wil have some set of  transaction,that txn link each other by cryptography 
+
+5. How is the verifiability of blockchain can be achieved?
+transaction will come into the blockchain network.
+in network, all node will have the copy of that transaction in the mpool.
+based on the nonce, the transaction will be added in the particular node based on the winning.
+once that added , that will be send to other nodes to add that transaction .
+so, suppose if u try to modify the transaction in future, then other nodes willnot allow to do that
+because other nodes will have the same transaction with cryptography code.
